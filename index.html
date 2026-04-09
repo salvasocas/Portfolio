@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Vercel Web Analytics -->
+    <script>
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
   </head>
   <body>
     <!-- Main Navigation Header -->
@@ -219,8 +228,9 @@
               <h3 class="project-title">MindBridge Web App</h3>
               <p class="project-description">
                 A modern healthcare platform connecting patients with doctors,
-                 featuring doctor search, online appointment booking with payments, 
-                 and a management system for doctors to handle requests.
+                featuring doctor search, online appointment booking with
+                payments, and a management system for doctors to handle
+                requests.
               </p>
               <div class="project-tech">
                 <span class="tech-tag">React</span>
@@ -258,9 +268,9 @@
             <div class="project-info">
               <h3 class="project-title">FitTrack Web App</h3>
               <p class="project-description">
-                A comprehensive fitness tracking application that allows users to
-                log workouts, track progress, and visualize their fitness journey
-                with interactive charts and personalized insights.
+                A comprehensive fitness tracking application that allows users
+                to log workouts, track progress, and visualize their fitness
+                journey with interactive charts and personalized insights.
               </p>
               <div class="project-tech">
                 <span class="tech-tag">React + TypeScript</span>
@@ -339,8 +349,8 @@
               <h3 class="project-title">Natours</h3>
               <p class="project-description">
                 An interactive travel planning app that displays current
-                conditions and forecasts for multiple destinations with beautiful data
-                visualizations.
+                conditions and forecasts for multiple destinations with
+                beautiful data visualizations.
               </p>
               <div class="project-tech">
                 <span class="tech-tag">JavaScript</span>
@@ -501,7 +511,6 @@
                     <span class="tech-tag">Node.js Express</span>
                     <span class="tech-tag">MongoDB & SQL</span>
                     <span class="tech-tag">Ruby</span>
-
                   </div>
                 </div>
                 <div class="skill-category">
@@ -563,7 +572,7 @@
           </div>
         </div>
       </section>
-      
+
       <!-- Contact Section -->
       <section
         id="contact"
@@ -612,7 +621,11 @@
             data-formspree-endpoint="https://formspree.io/f/mjgalzpz"
             novalidate
           >
-            <input type="hidden" name="_subject" value="New message from portfolio website" />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New message from portfolio website"
+            />
             <input type="hidden" name="_captcha" value="false" />
 
             <div class="form-grid">
@@ -641,7 +654,11 @@
                   aria-describedby="email-error"
                 />
                 <label for="email" class="form-label">Email Address *</label>
-                <span class="error-message" id="email-error" role="alert"></span>
+                <span
+                  class="error-message"
+                  id="email-error"
+                  role="alert"
+                ></span>
               </div>
 
               <div class="form-group form-group-full">
@@ -707,24 +724,18 @@
           <a href="https://www.github.com/salvasocas" aria-label="GitHub"
             ><img src="./icons/github.svg" alt="GitHub"
           /></a>
-          <a href="https://www.instagram.com/salva_socas/" aria-label="Instagram"
+          <a
+            href="https://www.instagram.com/salva_socas/"
+            aria-label="Instagram"
             ><img src="./icons/insta.svg" alt="Instagram"
           /></a>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>
-          &copy; 2025 Salvatore Socas.
-        </p>
+        <p>&copy; 2025 Salvatore Socas.</p>
       </div>
     </footer>
 
     <script src="scripts.js"></script>
-    
-    <!-- Vercel Analytics -->
-    <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    </script>
-    <script defer src="/<unique-path>/script.js"></script>
   </body>
 </html>
